@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Valentine';
+  src: url('https://fonts.cdnfonts.com/s/14958/VALENTINE.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --pink-primary: #E24990;
+  --pink-light: #FB88C1;
+  --pink-pale: #FED1D8;
+  --cream-white: #FEFTF8;
+  --beige: #F3DBD4;
+}
+
+body {
+  font-family: 'Valentine', 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, var(--cream-white) 0%, var(--beige) 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
