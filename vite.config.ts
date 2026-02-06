@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // Replace 'your-repo-name' with your actual GitHub repository name
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Change to '/your-repo-name/' if not using a custom domain
+  base: '/Valentines-Day', // Change to '/your-repo-name/' if not using a custom domain
 });
